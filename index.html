@@ -1,0 +1,2097 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/responsive-style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	
+	<title>Document</title>
+</head>
+<body>
+
+<div class="sidenav">
+	<div class="sidenav-arrow"><img src="./assets/images/arrow1.svg" alt="#" /></div>
+	
+	<span class="close-nav hidden-xs"><img src="./assets/images/close.svg" alt="#" /></span>
+	<div class="side-navMenu">
+		<div class="row m-0 visible-xs mobile-user">
+			<div class="col-12">
+				<a href="#"><img src="./assets/images/user1.png" alt="#" /></a>
+			</div>
+			<div class="col-12">
+				<h4>Martin Carder</h4>
+			</div>
+		</div>
+		<ul>
+			<li class="">
+				<span class="top-r"></span>
+				<span class="bottom-r"></span>
+				<a href="#">
+					<svg width="18" height="18" viewBox="0 0 18 18" fill="white" xmlns="http://www.w3.org/2000/svg">
+					<path d="M10 18V8H18V18H10ZM0 10V0H8V10H0ZM6 8V2H2V8H6ZM0 18V12H8V18H0ZM2 16H6V14H2V16ZM12 16H16V10H12V16ZM10 0H18V6H10V0ZM12 2V4H16V2H12Z" fill="white"/>
+					</svg>
+					<span>Dashboard</span>
+				</a>
+			</li>
+			<li class="active">
+				<span class="top-r"></span>
+				<span class="bottom-r"></span>
+				<a href="#">
+					<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M10 20C4.477 20 0 15.523 0 10C0 4.477 4.477 0 10 0C15.523 0 20 4.477 20 10C20 15.523 15.523 20 10 20ZM10 18C12.1217 18 14.1566 17.1571 15.6569 15.6569C17.1571 14.1566 18 12.1217 18 10C18 7.87827 17.1571 5.84344 15.6569 4.34315C14.1566 2.84285 12.1217 2 10 2C7.87827 2 5.84344 2.84285 4.34315 4.34315C2.84285 5.84344 2 7.87827 2 10C2 12.1217 2.84285 14.1566 4.34315 15.6569C5.84344 17.1571 7.87827 18 10 18ZM13.5 6.5L11.5 11.5L6.5 13.5L8.5 8.5L13.5 6.5Z" fill="white"/>
+					</svg>
+					<span>Discover</span>
+				</a>
+			</li>
+			<li>
+				<span class="top-r"></span>
+				<span class="bottom-r"></span>
+				<a href="#">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M5 3H14.5858L19 7.41421V21H5V3Z" stroke="white" stroke-width="2"/>
+					<path d="M8 8H14" stroke="white" stroke-width="2"/>
+					<path d="M8 12H16" stroke="white" stroke-width="2"/>
+					<path d="M8 16H16" stroke="white" stroke-width="2"/>
+					</svg>
+					<span>Access Logs</span>
+				</a>
+			</li>
+			<li>
+				<span class="top-r"></span>
+				<span class="bottom-r"></span>
+				<a href="#">
+				<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M14 21C14 21.5304 13.7893 22.0391 13.4142 22.4142C13.0391 22.7893 12.5304 23 12 23C11.4696 23 10.9609 22.7893 10.5858 22.4142C10.2107 22.0391 10 21.5304 10 21M5 11V16.5858C5 16.851 4.89464 17.1054 4.70711 17.2929L3.20711 18.7929C3.0745 18.9255 3 19.1054 3 19.2929V19.2929C3 19.6834 3.31658 20 3.70711 20H20.2929C20.6834 20 21 19.6834 21 19.2929V19.2929C21 19.1054 20.9255 18.9255 20.7929 18.7929L19.2929 17.2929C19.1054 17.1054 19 16.851 19 16.5858V11C19 7.9971 17.0952 5.34139 14.2763 4.3781C14.1135 4.32248 14 4.172 14 4V4C14 3.46957 13.7893 2.96086 13.4142 2.58579C13.0391 2.21071 12.5304 2 12 2C11.4696 2 10.9609 2.21071 10.5858 2.58579C10.2107 2.96086 10 3.46957 10 4V4C10 4.172 9.88647 4.32248 9.7237 4.3781C6.90482 5.34139 5 7.9971 5 11Z" stroke="white" stroke-width="2" stroke-linecap="round"/>
+				<circle cx="19" cy="6" r="6" fill="white"/>
+					<path d="M21.2852 9H17.3867V8.22656L19.2266 6.26562C19.4792 5.98958 19.6654 5.7487 19.7852 5.54297C19.9076 5.33724 19.9688 5.14193 19.9688 4.95703C19.9688 4.70443 19.9049 4.50651 19.7773 4.36328C19.6497 4.21745 19.4674 4.14453 19.2305 4.14453C18.9753 4.14453 18.7734 4.23307 18.625 4.41016C18.4792 4.58464 18.4062 4.8151 18.4062 5.10156H17.2734C17.2734 4.75521 17.3555 4.4388 17.5195 4.15234C17.6862 3.86589 17.9206 3.64193 18.2227 3.48047C18.5247 3.31641 18.8672 3.23438 19.25 3.23438C19.8359 3.23438 20.2904 3.375 20.6133 3.65625C20.9388 3.9375 21.1016 4.33464 21.1016 4.84766C21.1016 5.12891 21.0286 5.41536 20.8828 5.70703C20.737 5.9987 20.487 6.33854 20.1328 6.72656L18.8398 8.08984H21.2852V9Z" fill="#1D56A0"/>
+					</svg>
+					<span>Alerts</span>
+				</a>
+			</li>
+			<li>
+				<span class="top-r"></span>
+				<span class="bottom-r"></span>
+				<a href="#">
+				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M9.1419 21.5857C7.46635 21.0868 5.9749 20.1607 4.79393 18.9335C5.2345 18.4114 5.5 17.7367 5.5 17.0001C5.5 15.3432 4.15685 14.0001 2.5 14.0001C2.39977 14.0001 2.3007 14.005 2.203 14.0146C2.0699 13.3639 2 12.6901 2 12.0001C2 10.9548 2.16039 9.94691 2.4579 8.99976C2.47191 8.99996 2.48594 9.00006 2.5 9.00006C4.15685 9.00006 5.5 7.65691 5.5 6.00006C5.5 5.52441 5.3893 5.07461 5.1923 4.67506C6.34875 3.59975 7.76025 2.79501 9.32605 2.36157C9.8222 3.3341 10.8333 4.00007 12 4.00007C13.1667 4.00007 14.1778 3.3341 14.674 2.36157C16.2398 2.79501 17.6512 3.59975 18.8077 4.67506C18.6107 5.07461 18.5 5.52441 18.5 6.00006C18.5 7.65691 19.8432 9.00006 21.5 9.00006C21.5141 9.00006 21.5281 8.99996 21.5421 8.99976C21.8396 9.94691 22 10.9548 22 12.0001C22 12.6901 21.9301 13.3639 21.797 14.0146C21.6993 14.005 21.6002 14.0001 21.5 14.0001C19.8432 14.0001 18.5 15.3432 18.5 17.0001C18.5 17.7367 18.7655 18.4114 19.2061 18.9335C18.0251 20.1607 16.5336 21.0868 14.8581 21.5857C14.4714 20.376 13.338 19.5001 12 19.5001C10.662 19.5001 9.5286 20.376 9.1419 21.5857Z" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+					<path d="M12 15.5C13.933 15.5 15.5 13.933 15.5 12C15.5 10.067 13.933 8.5 12 8.5C10.067 8.5 8.5 10.067 8.5 12C8.5 13.933 10.067 15.5 12 15.5Z" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+					</svg>
+					<span>Settings</span>
+				</a>
+			</li>
+			<li>
+				<span class="top-r"></span>
+				<span class="bottom-r"></span>
+				<a href="#">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M5 3H14.5858L19 7.41421V21H5V3Z" stroke="white" stroke-width="2"/>
+					<path d="M8 16L10.5 13L12.5 15L16.5 10" stroke="white" stroke-width="2"/>
+					</svg>
+					<span>Reports</span>
+				</a>
+			</li>
+			<hr class="visible-xs" />
+			<li class="visible-xs">
+				<a href="#">
+					<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M10.0568 10.2249C12.6202 10.2249 14.6983 8.15983 14.6983 5.61244C14.6983 3.06506 12.6202 1 10.0568 1C7.49339 1 5.41534 3.06506 5.41534 5.61244C5.41534 8.15983 7.49339 10.2249 10.0568 10.2249Z" stroke="#fff" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+					<path d="M1 19V18.4375C1 13.8251 4.7358 10.2251 9.26405 10.2251H10.7357C15.3772 10.2251 18.9998 13.9376 18.9998 18.4375V19" stroke="#fff" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+					</svg>
+					<span>Profile</span>
+				</a>
+			</li>
+			<li class="visible-xs">
+				<a href="#">
+					<svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M1 1H10.5858L15 5.41421V19H1V1Z" stroke="#fff" stroke-width="2"/>
+					</svg>
+					<span>Documentation</span>
+				</a>
+			</li>
+			<li class="visible-xs">
+				<a href="#">
+					<svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M14.4586 5.97998L19.9994 11.115L14.4586 16.2499" stroke="#fff" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel"/>
+					<path d="M19 11H8" stroke="#fff" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+					<path d="M10 21H3C1.89543 21 1 20.1046 1 19V3C1 1.89543 1.89543 1 3 1H10" stroke="#fff" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+					</svg>
+					<span>Log out</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="top-nav">
+	<div class="container">
+		<div class="row d-flex align-items-center">
+			<div class="col-6 d-flex justify-content-start">
+				<div class="menu-btn">
+					<img src="./assets/images/menu.svg" alt="menu" />
+				</div>
+				<a href="#"><img class="logo" src="./assets/images/logo.svg" alt="logo" /></a>
+			</div>
+			<div class="col-6 d-flex justify-content-end">
+				<div class="notification d-flex">
+					<span>2</span>
+					<img src="./assets/images/bell.svg" alt="menu" />
+				</div>
+				<div class="menu-btn menu-btn1 visible-xs">
+					<img src="./assets/images/menu.svg" alt="menu" />
+					<img src="./assets/images/m-close.svg" alt="m-close" />
+				</div>
+				<div class="dropdown hidden-xs">
+				  <button class="btn btn-secondary dropdown-toggle d-flex align-items-center" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				    <img src="./assets/images/user.png" alt="user" />
+				    <span>Martin Carder</span>
+				  </button>
+				  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				    <a class="dropdown-item" href="#"><span><img src="./assets/images/u-icon1.svg" alt="u-icon" /></span> Profile</a>
+				    <a class="dropdown-item" href="#"><span><img src="./assets/images/u-icon2.svg" alt="u-icon" /></span> Documentation</a>
+				    <a class="dropdown-item" href="#"><span><img src="./assets/images/u-icon3.svg" alt="u-icon" /></span> Log out</a>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="main-content">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 d-flex justify-content-between align-items-center main-content-head">
+				<h1>Overview</h1>
+				<select>
+					<option value="Last 24 hours">Last 24 hours</option>
+					<option value="Last 48 hours">Last 48 hours</option>
+					<option value="Last 1 weeks">Last 1 week</option>
+					<option value="Last 15 days">Last 15 days</option>
+					<option value="Last 30 days">Last 30 days</option>
+					<option value="Custom time">Custom time</option>
+				</select>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4">
+				<div class="content-box">
+					<div class="box-top d-flex justify-content-between align-items-center">
+						<h5>Number of Threats</h5>
+						<div class="dropdown">
+						  <button class="btn btn-secondary dropdown-toggle d-flex align-items-center" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    <img src="./assets/images/ellipses.svg" alt="ellipses" />
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon1.svg" alt="u-icon" /></span> View in full screen</a>
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon2.svg" alt="u-icon" /></span> Print chart</a>
+						    <hr />
+						    <a class="dropdown-item" href="#">Download PNG image</a>
+						    <a class="dropdown-item" href="#">Download JPEG image</a>
+						    <a class="dropdown-item" href="#">Download PDF document</a>
+						    <a class="dropdown-item" href="#">Download SVG vector image</a>
+						  </div>
+						</div>
+					</div>
+					<div class="box-bottom d-flex">
+						<div class="col-8 col-md-8 p-0 d-flex justify-content-center align-items-center">
+							<div class="w-100">
+								<div id="chart1"></div>
+								
+							</div>
+						</div>
+						<div class="col-4 col-md-4 pl-0 d-flex align-items-center">
+							<div class="d-flex row m-0">
+								<div class="col-12 p-0">
+									<div class="chart-data-box bg-green">
+										<div class="d-flex">
+											<i class="fa fa-check"></i>
+											<p>Clean</p>
+										</div>
+										<h6>65401</h6>
+									</div>
+								</div>
+								<div class="col-12 p-0">
+									<div class="chart-data-box bg-red">
+										<div class="d-flex">
+											<i class="fa fa-exclamation"></i>
+											<p>Threat</p>
+										</div>
+										<h6>348</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4">
+				<div class="content-box">
+					<div class="box-top d-flex justify-content-between align-items-center">
+						<h5>Top Infection by Type</h5>
+						<div class="dropdown">
+						  <button class="btn btn-secondary dropdown-toggle d-flex align-items-center" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    <img src="./assets/images/ellipses.svg" alt="ellipses" />
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon1.svg" alt="u-icon" /></span> View in full screen</a>
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon2.svg" alt="u-icon" /></span> Print chart</a>
+						    <hr />
+						    <a class="dropdown-item" href="#">Download PNG image</a>
+						    <a class="dropdown-item" href="#">Download JPEG image</a>
+						    <a class="dropdown-item" href="#">Download PDF document</a>
+						    <a class="dropdown-item" href="#">Download SVG vector image</a>
+						  </div>
+						</div>
+					</div>
+					<div class="box-bottom d-flex">
+						<div class="col-12 p-0">
+							<div id="chart2"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4">
+				<div class="content-box">
+					<div class="box-top d-flex justify-content-between align-items-center">
+						<h5>Number of Threats Count by Severity</h5>
+						<div class="dropdown">
+						  <button class="btn btn-secondary dropdown-toggle d-flex align-items-center" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    <img src="./assets/images/ellipses.svg" alt="ellipses" />
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon1.svg" alt="u-icon" /></span> View in full screen</a>
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon2.svg" alt="u-icon" /></span> Print chart</a>
+						    <hr />
+						    <a class="dropdown-item" href="#">Download PNG image</a>
+						    <a class="dropdown-item" href="#">Download JPEG image</a>
+						    <a class="dropdown-item" href="#">Download PDF document</a>
+						    <a class="dropdown-item" href="#">Download SVG vector image</a>
+						  </div>
+						</div>
+					</div>
+					<div class="box-bottom d-flex align-items-center">
+						<div class="col-12 p-0">
+							<div id="chart3"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-8">
+				<div class="content-box">
+					<div class="box-top d-flex justify-content-between align-items-center">
+						<h5>System Status</h5>
+						<div class="dropdown">
+						  <button class="btn btn-secondary dropdown-toggle d-flex align-items-center" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    <img src="./assets/images/ellipses.svg" alt="ellipses" />
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon1.svg" alt="u-icon" /></span> View in full screen</a>
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon2.svg" alt="u-icon" /></span> Print chart</a>
+						    <hr />
+						    <a class="dropdown-item" href="#">Download PNG image</a>
+						    <a class="dropdown-item" href="#">Download JPEG image</a>
+						    <a class="dropdown-item" href="#">Download PDF document</a>
+						    <a class="dropdown-item" href="#">Download SVG vector image</a>
+						  </div>
+						</div>
+					</div>
+					<div class="box-bottom d-flex align-items-center">
+						<div class="col-12 p-0">
+							<div id="chart4"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4">
+				<div class="content-box">
+					<div class="box-top d-flex justify-content-between align-items-center">
+						<h5>Top TLDs</h5>
+						<div class="dropdown">
+						  <button class="btn btn-secondary dropdown-toggle d-flex align-items-center" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    <img src="./assets/images/ellipses.svg" alt="ellipses" />
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon1.svg" alt="u-icon" /></span> View in full screen</a>
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon2.svg" alt="u-icon" /></span> Print chart</a>
+						    <hr />
+						    <a class="dropdown-item" href="#">Download PNG image</a>
+						    <a class="dropdown-item" href="#">Download JPEG image</a>
+						    <a class="dropdown-item" href="#">Download PDF document</a>
+						    <a class="dropdown-item" href="#">Download SVG vector image</a>
+						  </div>
+						</div>
+					</div>
+					<div class="box-bottom d-flex align-items-center">
+						<div class="col-12 p-0">
+							<div id="chart5"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-6">
+				<div class="content-box">
+					<div class="box-top d-flex justify-content-between align-items-center">
+						<h5>Top Domain Query Type</h5>
+						<div class="dropdown">
+						  <button class="btn btn-secondary dropdown-toggle d-flex align-items-center" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    <img src="./assets/images/ellipses.svg" alt="ellipses" />
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon1.svg" alt="u-icon" /></span> View in full screen</a>
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon2.svg" alt="u-icon" /></span> Print chart</a>
+						    <hr />
+						    <a class="dropdown-item" href="#">Download PNG image</a>
+						    <a class="dropdown-item" href="#">Download JPEG image</a>
+						    <a class="dropdown-item" href="#">Download PDF document</a>
+						    <a class="dropdown-item" href="#">Download SVG vector image</a>
+						  </div>
+						</div>
+					</div>
+					<div class="box-bottom d-flex">
+						<div class="col-12 p-0">
+							<div id="chart6"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-6">
+				<div class="content-box">
+					<div class="box-top d-flex justify-content-between align-items-center">
+						<h5>Detected Threats by Type</h5>
+						<div class="dropdown">
+						  <button class="btn btn-secondary dropdown-toggle d-flex align-items-center" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    <img src="./assets/images/ellipses.svg" alt="ellipses" />
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon1.svg" alt="u-icon" /></span> View in full screen</a>
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon2.svg" alt="u-icon" /></span> Print chart</a>
+						    <hr />
+						    <a class="dropdown-item" href="#">Download PNG image</a>
+						    <a class="dropdown-item" href="#">Download JPEG image</a>
+						    <a class="dropdown-item" href="#">Download PDF document</a>
+						    <a class="dropdown-item" href="#">Download SVG vector image</a>
+						  </div>
+						</div>
+					</div>
+					<div class="box-bottom d-flex">
+						<div class="col-12 p-0">
+							<div id="chart7"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4">
+				<div class="content-box">
+					<div class="box-top d-flex justify-content-between align-items-center">
+						<h5>Top Requested Threats Domain</h5>
+						<div class="dropdown">
+						  <button class="btn btn-secondary dropdown-toggle d-flex align-items-center" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    <img src="./assets/images/ellipses.svg" alt="ellipses" />
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon1.svg" alt="u-icon" /></span> View in full screen</a>
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon2.svg" alt="u-icon" /></span> Print chart</a>
+						    <hr />
+						    <a class="dropdown-item" href="#">Download PNG image</a>
+						    <a class="dropdown-item" href="#">Download JPEG image</a>
+						    <a class="dropdown-item" href="#">Download PDF document</a>
+						    <a class="dropdown-item" href="#">Download SVG vector image</a>
+						  </div>
+						</div>
+					</div>
+					<div class="box-bottom d-flex align-items-center">
+						<div class="col-12 p-0">
+							<div id="chart8"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-12 col-lg-8">
+				<div class="content-box">
+					<div class="box-top d-flex justify-content-between align-items-center">
+						<h5>Top Threats Destination by Domain</h5>
+						<div class="dropdown">
+						  <button class="btn btn-secondary dropdown-toggle d-flex align-items-center" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    <img src="./assets/images/ellipses.svg" alt="ellipses" />
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon1.svg" alt="u-icon" /></span> View in full screen</a>
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon2.svg" alt="u-icon" /></span> Print chart</a>
+						    <hr />
+						    <a class="dropdown-item" href="#">Download PNG image</a>
+						    <a class="dropdown-item" href="#">Download JPEG image</a>
+						    <a class="dropdown-item" href="#">Download PDF document</a>
+						    <a class="dropdown-item" href="#">Download SVG vector image</a>
+						  </div>
+						</div>
+					</div>
+					<div class="box-bottom d-flex align-items-center">
+						<div class="col-12 p-0">
+							<div id="chart9"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4">
+				<div class="content-box">
+					<div class="box-top d-flex justify-content-between align-items-center">
+						<h5>Latest Threats Detected</h5>
+						<div class="dropdown">
+						  <button class="btn btn-secondary dropdown-toggle d-flex align-items-center" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    <img src="./assets/images/ellipses.svg" alt="ellipses" />
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon1.svg" alt="u-icon" /></span> View in full screen</a>
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon2.svg" alt="u-icon" /></span> Print chart</a>
+						    <hr />
+						    <a class="dropdown-item" href="#">Download PNG image</a>
+						    <a class="dropdown-item" href="#">Download JPEG image</a>
+						    <a class="dropdown-item" href="#">Download PDF document</a>
+						    <a class="dropdown-item" href="#">Download SVG vector image</a>
+						  </div>
+						</div>
+					</div>
+					<div class="box-bottom d-flex align-items-center">
+						<div class="col-12 p-0">
+							<div id="chart10"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4">
+				<div class="content-box">
+					<div class="box-top d-flex justify-content-between align-items-center">
+						<h5>Top Threats Destinations</h5>
+						<div class="dropdown">
+						  <button class="btn btn-secondary dropdown-toggle d-flex align-items-center" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    <img src="./assets/images/ellipses.svg" alt="ellipses" />
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon1.svg" alt="u-icon" /></span> View in full screen</a>
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon2.svg" alt="u-icon" /></span> Print chart</a>
+						    <hr />
+						    <a class="dropdown-item" href="#">Download PNG image</a>
+						    <a class="dropdown-item" href="#">Download JPEG image</a>
+						    <a class="dropdown-item" href="#">Download PDF document</a>
+						    <a class="dropdown-item" href="#">Download SVG vector image</a>
+						  </div>
+						</div>
+					</div>
+					<div class="box-bottom d-flex align-items-center">
+						<div class="col-12 p-0">
+							<div id="chart11"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4">
+				<div class="content-box">
+					<div class="box-top d-flex justify-content-between align-items-center">
+						<h5>Top Infected Systems</h5>
+						<div class="dropdown">
+						  <button class="btn btn-secondary dropdown-toggle d-flex align-items-center" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    <img src="./assets/images/ellipses.svg" alt="ellipses" />
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon1.svg" alt="u-icon" /></span> View in full screen</a>
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon2.svg" alt="u-icon" /></span> Print chart</a>
+						    <hr />
+						    <a class="dropdown-item" href="#">Download PNG image</a>
+						    <a class="dropdown-item" href="#">Download JPEG image</a>
+						    <a class="dropdown-item" href="#">Download PDF document</a>
+						    <a class="dropdown-item" href="#">Download SVG vector image</a>
+						  </div>
+						</div>
+					</div>
+					<div class="box-bottom d-flex align-items-center">
+						<div class="col-12 p-0">
+							<div id="chart12"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4">
+				<div class="content-box">
+					<div class="box-top d-flex justify-content-between align-items-center">
+						<h5>Unique Domain Queries by Threat</h5>
+						<div class="dropdown">
+						  <button class="btn btn-secondary dropdown-toggle d-flex align-items-center" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    <img src="./assets/images/ellipses.svg" alt="ellipses" />
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon1.svg" alt="u-icon" /></span> View in full screen</a>
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon2.svg" alt="u-icon" /></span> Print chart</a>
+						    <hr />
+						    <a class="dropdown-item" href="#">Download PNG image</a>
+						    <a class="dropdown-item" href="#">Download JPEG image</a>
+						    <a class="dropdown-item" href="#">Download PDF document</a>
+						    <a class="dropdown-item" href="#">Download SVG vector image</a>
+						  </div>
+						</div>
+					</div>
+					<div class="box-bottom d-flex align-items-center">
+						<div class="col-12 p-0">
+							<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+								<thead>
+									<tr>
+										<th>Last Seen</th>
+										<th>Domain Name</th>
+										<th>Threat Type</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>15/11/2021</td>
+										<td><a href="#">heyheyhey.is</a></td>
+										<td>malware</td>
+									</tr>
+									<tr>
+										<td>15/11/2021</td>
+										<td><a href="#">heyheyhey.is</a></td>
+										<td>malware</td>
+									</tr>
+									<tr>
+										<td>15/11/2021</td>
+										<td><a href="#">heyheyhey.is</a></td>
+										<td>malware</td>
+									</tr>
+									<tr>
+										<td>15/11/2021</td>
+										<td><a href="#">heyheyhey.is</a></td>
+										<td>malware</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4">
+				<div class="content-box">
+					<div class="box-top d-flex justify-content-between align-items-center">
+						<h5>TLD with most Subdomains</h5>
+						<div class="dropdown">
+						  <button class="btn btn-secondary dropdown-toggle d-flex align-items-center" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    <img src="./assets/images/ellipses.svg" alt="ellipses" />
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon1.svg" alt="u-icon" /></span> View in full screen</a>
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon2.svg" alt="u-icon" /></span> Print chart</a>
+						    <hr />
+						    <a class="dropdown-item" href="#">Download PNG image</a>
+						    <a class="dropdown-item" href="#">Download JPEG image</a>
+						    <a class="dropdown-item" href="#">Download PDF document</a>
+						    <a class="dropdown-item" href="#">Download SVG vector image</a>
+						  </div>
+						</div>
+					</div>
+					<div class="box-bottom d-flex align-items-center">
+						<div class="col-12 p-0">
+							<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+								<thead>
+									<tr>
+										<th>Domain Name</th>
+										<th>Count</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><a href="#">whatdoyouwant.org </a></td>
+										<td>1111</td>
+									</tr>
+									<tr>
+										<td><a href="#">whatdoyouwant.org </a></td>
+										<td>1111</td>
+									</tr>
+									<tr>
+										<td><a href="#">whatdoyouwant.org </a></td>
+										<td>1111</td>
+									</tr>
+									<tr>
+										<td><a href="#">whatdoyouwant.org </a></td>
+										<td>1111</td>
+									</tr>
+									<tr>
+										<td><a href="#">whatdoyouwant.org </a></td>
+										<td>1111</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4">
+				<div class="content-box">
+					<div class="box-top d-flex justify-content-between align-items-center">
+						<h5>Top Queries by Client</h5>
+						<div class="dropdown">
+						  <button class="btn btn-secondary dropdown-toggle d-flex align-items-center" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    <img src="./assets/images/ellipses.svg" alt="ellipses" />
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon1.svg" alt="u-icon" /></span> View in full screen</a>
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon2.svg" alt="u-icon" /></span> Print chart</a>
+						    <hr />
+						    <a class="dropdown-item" href="#">Download PNG image</a>
+						    <a class="dropdown-item" href="#">Download JPEG image</a>
+						    <a class="dropdown-item" href="#">Download PDF document</a>
+						    <a class="dropdown-item" href="#">Download SVG vector image</a>
+						  </div>
+						</div>
+					</div>
+					<div class="box-bottom d-flex align-items-center">
+						<div class="col-12 p-0">
+							<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+								<thead>
+									<tr>
+										<th>SourceIP</th>
+										<th>QueryDomain</th>
+										<th>Count</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>172.156.5.5</td>
+										<td><a href="#">gotosleep.com</a></td>
+										<td>999</td>
+									</tr>
+									<tr>
+										<td>172.156.5.5</td>
+										<td><a href="#">gotosleep.com</a></td>
+										<td>999</td>
+									</tr>
+									<tr>
+										<td>172.156.5.5</td>
+										<td><a href="#">gotosleep.com</a></td>
+										<td>999</td>
+									</tr>
+									<tr>
+										<td>172.156.5.5</td>
+										<td><a href="#">gotosleep.com</a></td>
+										<td>999</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12">
+				<div class="content-box">
+					<div class="box-top d-flex justify-content-between align-items-center">
+						<h5>World-wide Threat Destination</h5>
+						<div class="dropdown">
+						  <button class="btn btn-secondary dropdown-toggle d-flex align-items-center" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    <img src="./assets/images/ellipses.svg" alt="ellipses" />
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon1.svg" alt="u-icon" /></span> View in full screen</a>
+						    <a class="dropdown-item" href="#"><span><img src="./assets/images/d-icon2.svg" alt="u-icon" /></span> Print chart</a>
+						    <hr />
+						    <a class="dropdown-item" href="#">Download PNG image</a>
+						    <a class="dropdown-item" href="#">Download JPEG image</a>
+						    <a class="dropdown-item" href="#">Download PDF document</a>
+						    <a class="dropdown-item" href="#">Download SVG vector image</a>
+						  </div>
+						</div>
+					</div>
+					<div class="box-bottom d-flex align-items-center">
+						<div class="col-12 p-0">
+							<iframe class="map-iframe" src="./map.html"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="assets/js/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="assets/js/popper.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap-4.js"></script>
+<script src="https://code.highcharts.com/highcharts.src.js"></script>
+	<script src="https://code.highcharts.com/highcharts-more.js"></script>
+	<script src="https://code.highcharts.com/modules/solid-gauge.js"></script>
+	<script src="https://code.highcharts.com/modules/exporting.js"></script>
+	<script src="https://code.highcharts.com/modules/export-data.js"></script>
+	<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+	<script src="https://code.highcharts.com/maps/modules/map.js"></script>
+<script type="text/javascript">
+	$('.sidenav ul li').hover(function(){
+		$('.sidenav ul li').removeClass('n-periority p-periority');
+		$(this).next().addClass('n-periority');
+		$(this).prev().addClass('p-periority');
+	}, function(){
+		$('.sidenav ul li').removeClass('n-periority p-periority');
+	});
+
+	$('.top-nav .menu-btn img, .close-nav').click(function(){
+		$('.sidenav, body').toggleClass('active');
+	});
+	
+	$(document).click(function(){
+		$('.sidenav, body').removeClass('active');
+	});
+	$('.sidenav, .top-nav .menu-btn').click(function(e){
+		e.stopPropagation();
+	});
+	$('.menu-btn1').click(function(){
+		$(this).toggleClass('active');
+	});
+</script>
+<script type="text/javascript">
+	// Iterate over each select element
+$('select').each(function () {
+
+    // Cache the number of options
+    var $this = $(this),
+        numberOfOptions = $(this).children('option').length;
+
+    // Hides the select element
+    $this.addClass('s-hidden');
+
+    // Wrap the select element in a div
+    $this.wrap('<div class="select"></div>');
+
+    // Insert a styled div to sit over the top of the hidden select element
+    $this.after('<div class="styledSelect"></div>');
+
+    // Cache the styled div
+    var $styledSelect = $this.next('div.styledSelect');
+
+    // Show the first select option in the styled div
+    $styledSelect.text($this.children('option').eq(0).text());
+
+    // Insert an unordered list after the styled div and also cache the list
+    var $list = $('<ul />', {
+        'class': 'options'
+    }).insertAfter($styledSelect);
+
+    // Insert a list item into the unordered list for each select option
+    for (var i = 0; i < numberOfOptions; i++) {
+        $('<li />', {
+            text: $this.children('option').eq(i).text(),
+            rel: $this.children('option').eq(i).val()
+        }).appendTo($list);
+    }
+
+    // Cache the list items
+    var $listItems = $list.children('li');
+
+    // Show the unordered list when the styled div is clicked (also hides it if the div is clicked again)
+    $styledSelect.click(function (e) {
+    	
+        e.stopPropagation();
+        $('div.styledSelect.active').each(function () {
+            $(this).removeClass('active').next('ul.options').hide();
+        });
+
+        $(this).next('ul.options').toggle();
+    });
+
+    // Hides the unordered list when a list item is clicked and updates the styled div to show the selected list item
+    // Updates the select element to have the value of the equivalent option
+    $listItems.click(function (e) {
+    	var thisIndex = $(this).index() + 1;
+    	$(this).parent().prev().prev().find('option').removeAttr('selected');
+    	$(this).parent().prev().prev().find('option:nth-child('+thisIndex+')').attr('selected','selected');
+        e.stopPropagation();
+        $styledSelect.text($(this).text()).removeClass('active');
+        $this.val($(this).attr('rel'));
+        $list.hide();
+        /* alert($this.val()); Uncomment this for demonstration! */
+    });
+
+    // Hides the unordered list when clicking outside of it
+    $(document).click(function () {
+        $styledSelect.removeClass('active');
+        $list.hide();
+    });
+
+});
+</script>
+<script defer="" type="text/javascript">
+
+    "use strict";
+
+// Uncomment to style it like Apple Watch
+
+/*
+if (!Highcharts.theme) {
+    Highcharts.setOptions({
+        chart: {
+            backgroundColor: 'black'
+        },
+        colors: ['#F62366', '#9DFF02', '#0CCDD6'],
+        title: {
+            style: {
+                color: 'silver'
+            }
+        },
+        tooltip: {
+            style: {
+                color: 'silver'
+            }
+        }
+    });
+}
+// */
+
+/**
+ * In the chart render event, add icons on top of the circular shapes
+ */
+function renderIcons() {
+  // Move icon
+  if (!this.series[0].icon) {
+    this.series[0].icon = this.renderer.path(['M', -8, 0, 'L', 8, 0, 'M', 0, -8, 'L', 8, 0, 0, 8]).attr({
+      stroke: '#4AA7BB',
+      'stroke-linecap': 'round',
+      'stroke-linejoin': 'round',
+      'stroke-width': 6,
+      zIndex: 10
+    }).add(this.series[2].group);
+  }
+
+  this.series[0].icon.translate(this.chartWidth / 2 - 10, this.plotHeight / 2 - this.series[0].points[0].shapeArgs.innerR - (this.series[0].points[0].shapeArgs.r - this.series[0].points[0].shapeArgs.innerR) / 2); // Exercise icon
+
+  if (!this.series[1].icon) {
+    this.series[1].icon = this.renderer.path(['M', -8, 0, 'L', 8, 0, 'M', 0, -8, 'L', 8, 0, 0, 8, 'M', 8, -8, 'L', 16, 0, 8, 8]).attr({
+      stroke: '#ffffff',
+      'stroke-linecap': 'round',
+      'stroke-linejoin': 'round',
+      'stroke-width': 6,
+      zIndex: 10
+    }).add(this.series[2].group);
+  }
+
+  this.series[1].icon.translate(this.chartWidth / 2 - 10, this.plotHeight / 2 - this.series[1].points[0].shapeArgs.innerR - (this.series[1].points[0].shapeArgs.r - this.series[1].points[0].shapeArgs.innerR) / 2); // Stand icon
+}
+
+Highcharts.chart('chart1', {
+  chart: {
+    type: 'solidgauge',
+    height: '100%',
+    events: {
+      render: renderIcons
+    }
+  },
+  title: {
+    text: 'Number of Threats',
+    style: {
+      fontSize: '24px'
+    }
+  },
+  tooltip: {
+    borderWidth: 0,
+    backgroundColor: 'none',
+    shadow: false,
+    style: {
+      fontSize: '16px'
+    },
+    valueSuffix: '%',
+    pointFormat: '{series.name}<br><span style="font-size:2em; color: {point.color}; font-weight: bold">{point.y}</span>',
+    positioner: function positioner(labelWidth) {
+      return {
+        x: (this.chart.chartWidth - labelWidth) / 2,
+        y: this.chart.plotHeight / 3 + 15
+      };
+    }
+  },
+  pane: {
+    startAngle: 0,
+    endAngle: 360,
+    background: [{
+      // Track for Move
+      outerRadius: '112%',
+      innerRadius: '88%',
+      backgroundColor: 'rgba(74, 167, 187, .2)',
+      borderWidth: 0
+    }, {
+      // Track for Exercise
+      outerRadius: '87%',
+      innerRadius: '63%',
+      backgroundColor: 'rgba(242, 91, 100, .25)',
+      borderWidth: 0
+    }]
+  },
+  yAxis: {
+    min: 0,
+    max: 100,
+    lineWidth: 0,
+    tickPositions: []
+  },
+  plotOptions: {
+    solidgauge: {
+      dataLabels: {
+        enabled: false
+      },
+      linecap: 'round',
+      stickyTracking: false,
+      rounded: true
+    }
+  },
+  series: [{
+    name: 'Clean',
+    data: [{
+      color: '#4AA7BB',
+      radius: '112%',
+      innerRadius: '88%',
+      y: 80
+    }]
+  }, {
+    name: 'Exercise',
+    data: [{
+      color: '#F25B64',
+      radius: '87%',
+      innerRadius: '63%',
+      y: 35
+    }]
+  }]
+});
+</script>
+<script type="text/javascript">
+	Highcharts.chart('chart2', {
+    chart: {
+        type: 'packedbubble',
+        height: '100%'
+    },
+    title: {
+        text: 'Carbon emissions around the world (2014)'
+    },
+    tooltip: {
+        useHTML: true,
+        pointFormat: '<b>{point.name}:</b> {point.value}m CO<sub>2</sub>',
+    },
+    plotOptions: {
+        packedbubble: {
+            minSize: '20%',
+            maxSize: '100%',
+            zMin: 0,
+            zMax: 1000,
+            opacity:1,
+            layoutAlgorithm: {
+                gravitationalConstant: 0.05,
+                splitSeries: true,
+                seriesInteraction: false,
+                dragBetweenSeries: false,
+                parentNodeLimit: true,
+            },
+            dataLabels: {
+                enabled: true,
+                format: '{point.name}',
+                filter: {
+                    property: 'y',
+                    operator: '>',
+                    value: 250
+                },
+                style: {
+                	  fontSize:10,
+                    color: 'black',
+                    textOutline: 'none',
+                    fontWeight: 'normal'
+                }
+            }
+        }
+    },
+    series: [{
+        name: 'Critical',
+        color: '#ED6169',
+        data: [{
+            name: 'Command & <br>Control Server',
+            value: 767.1
+        }, {
+            name: 'Zero Reputation',
+            value: 600.7
+        },
+        {
+            name: "Bogons",
+            value: 970.2
+        },{
+            name: 'demo 1',
+            value: 76.1
+        }, {
+            name: 'demo 2',
+            value: 60.7
+        },
+        {
+            name: "demo 3",
+            value: 97.2
+        },{
+            name: 'demo 1',
+            value: 76.1
+        }, {
+            name: 'demo 2',
+            value: 60.7
+        },
+        {
+            name: "demo 3",
+            value: 97.2
+        }]
+    }, {
+        name: 'Suspicious',
+        color: '#FFCD56',
+        data: [{
+            name: "Malware",
+            value: 408.2
+        },
+        {
+            name: "Known <br>Suspicious",
+            value: 609.2
+        },{
+            name: 'demo 1',
+            value: 76.1
+        }, {
+            name: 'demo 2',
+            value: 60.7
+        },
+        {
+            name: "demo 3",
+            value: 97.2
+        }]
+    }, {
+        name: 'High',
+        color: 'rgb(121, 196, 249)',
+        data: [{
+            name: "ZRВ",
+            value: 409.4
+        },
+        {
+            name: "Drop IP",
+            value: 347.1
+        },
+        {
+            name: "Adware",
+            value: 700.1
+        }, {
+            name: 'demo 2',
+            value: 60.7
+        },
+        {
+            name: "demo 3",
+            value: 97.2
+        }]
+    }, {
+        name: 'Low',
+        color: '#2476E4',
+        data: [{
+            name: "Bad <br>Nameserver <br>Hosts",
+            value: 409.4
+        },
+        {
+            name: "Known Suspicious",
+            value: 980.1
+        },
+        {
+            name: "Hijacked & <br>Criminal Networks",
+            value: 500.1
+        }, {
+            name: 'Cryptobloker',
+            value: 300.7
+        },
+        {
+            name: "Botnet",
+            value: 200.2
+        },
+        {
+            name: "demo 1",
+            value: 100.2
+        }]
+    }, {
+        name: 'Clean',
+        color: '#898b8c',
+        data: [{
+            name: "demo 1",
+            value: 40.4
+        },
+        {
+            name: "demo 2",
+            value: 50.1
+        }]
+    }]
+});
+</script>
+
+<script type="text/javascript">
+	Highcharts.chart('chart3', {
+    chart: {
+        type: 'column'
+    },
+    title: {
+        text: 'Browser market shares. January, 2018'
+    },
+    subtitle: {
+        text: ''
+    },
+    accessibility: {
+        announceNewData: {
+            enabled: true
+        }
+    },
+    xAxis: {
+        type: 'category',
+        
+    },
+    yAxis: {
+    	min: 0,
+    	max: 100,
+        title: {
+            text: ''
+        },
+        labels: {
+            formatter: function () {
+                return this.value + '%'; // clean, unformatted number for year
+            }
+        },
+
+    },
+    legend: {
+        enabled: false
+    },
+    plotOptions: {
+        series: {
+            borderWidth: 0,
+            dataLabels: {
+                enabled: true,
+                format: '{point.y:.1f}%'
+            }
+        }
+    },
+
+    tooltip: {
+        headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
+        pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}%</b> of total<br/>'
+    },
+
+    series: [
+        {
+            type: 'bar',
+            colorByPoint: true,
+            data: [
+                {
+                    name: "CPU",
+                    y: 62.74,
+                    drilldown: "CPU",
+                    color: '#2961AB'
+                },
+                {
+                    name: "RAM",
+                    y: 50.57,
+                    drilldown: "RAM",
+                    color:'#2476E4'
+                },
+                {
+                    name: "NIC",
+                    y: 98,
+                    drilldown: "NIC",
+                    color: '#4AA7BB'
+                },
+                {
+                    name: "Disk I/O",
+                    y: 29,
+                    drilldown: "Disk I/O",
+                    color: '#A3D8FE'
+                }
+            ]
+        }
+    ]
+});
+</script>
+<script type="text/javascript">
+	Highcharts.chart('chart4', {
+    chart: {
+        type: 'area'
+    },
+    accessibility: {
+        description: ''
+    },
+    title: {
+        text: ''
+    },
+    subtitle: {
+        text: ''
+    },
+    xAxis: {
+    	type: 'datetime',
+                accessibility: {
+                    rangeDescription: 'Range: Jan 1st 2017 to Dec 31 2017.'
+                },
+        allowDecimals: false,
+        labels: {
+            formatter: function () {
+                return this.value; // clean, unformatted number for year
+            }
+        }
+    },
+    yAxis: {
+        title: {
+            text: 'Number of Threats'
+        },
+        labels: {
+            formatter: function () {
+                return this.value / 10000 + 'k';
+            }
+        }
+    },
+    tooltip: {
+        pointFormat: '{series.name}: <b>{point.y:,.0f}</b>'
+    },
+    plotOptions: {
+        area: {
+            pointStart: 1940,
+            marker: {
+                enabled: false,
+                symbol: 'circle',
+                radius: 2,
+                states: {
+                    hover: {
+                        enabled: true
+                    }
+                }
+            }
+        }
+    },
+    series: [{
+        name: 'Critical',
+        color: '#F25B64',
+        data: [4126, 4136, 4146, 4166, 4186, 4226, 4216, 4206, 4186, 4176, 4146, 4136
+        ]
+    }, {
+        name: 'Suspicious',
+        color:'#FFD675',
+        data: [3126, 3136, 3146, 3166, 3186, 3226, 3216, 3206, 3186, 3176, 3146, 3136
+        ]
+    }, {
+        name: 'High',
+        color:'#A3D8FE',
+        data: [2126, 2136, 2146, 2166, 2186, 2226, 2216, 2206, 2186, 2176, 2146, 2136
+        ]
+    }, {
+        name: 'Low',
+        color:'#2476E4',
+        data: [1126, 1136, 1146, 1166, 1186, 1226, 1216, 1206, 1186, 1176, 1146, 1136
+        ]
+    }, {
+        name: 'Unknows',
+        color:'#A6A8AB',
+        data: [126, 136, 146, 166, 186, 226, 216, 206, 186, 176, 146, 136
+        ]
+    }]
+});
+</script>
+<script type="text/javascript">
+	// Build the chart
+Highcharts.chart('chart5', {
+    chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false,
+        type: 'pie'
+    },
+    title: {
+        text: 'Browser market shares in January, 2018'
+    },
+    tooltip: {
+        pointFormat: '<b>{point.percentage:.1f}%</b>'
+    },
+    accessibility: {
+        point: {
+            valueSuffix: '%'
+        }
+    },
+    plotOptions: {
+        pie: {
+            allowPointSelect: true,
+            cursor: 'pointer',
+            dataLabels: {
+                enabled: false
+            },
+            showInLegend: true
+        }
+    },
+    series: [{
+    		name: '',
+        colorByPoint: true,
+        data: [{
+            name: '.com',
+            color: '#F4F4DF',
+            y: 10
+        }, {
+            name: '.org',
+            color: '#4AA7BB',
+            y: 27.5
+        }, {
+            name: '.net',
+            color: '#2476E4',
+            y: 35
+        }, {
+            name: '.jp',
+            color: '#85D0E1',
+            y: 27.5
+        }]
+    }]
+});
+</script>
+<script type="text/javascript">
+	Highcharts.chart('chart6', {
+    chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false,
+        type: 'pie'
+    },
+    title: {
+        text: 'Browser market shares in January, 2018'
+    },
+    tooltip: {
+        pointFormat: '<b>{point.percentage:.1f}%</b>'
+    },
+    accessibility: {
+        point: {
+            valueSuffix: '%'
+        }
+    },
+    plotOptions: {
+        pie: {
+            allowPointSelect: true,
+            cursor: 'pointer',
+            dataLabels: {
+                enabled: true,
+                format: '{point.percentage:.1f} %'
+            }
+        }
+    },
+    series: [{
+        name: '',
+        colorByPoint: true,
+        data: [{
+            name: 'Cname',
+            color: '#85D0E1',
+            y: 40,
+        }, {
+            name: 'A',
+            color: '#A3D8FE',
+            y: 8
+        }, {
+            name: 'NS',
+            color:'#509BFF',
+            y: 11
+        }, {
+            name: 'MX',
+            color:'#2961AB',
+            y: 16
+        }, {
+            name: 'AAAA',
+            color:'#4AA7BB',
+            y: 25
+        }]
+    }]
+});
+</script>
+<script type="text/javascript">
+Highcharts.chart('chart7', {
+    chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false,
+        type: 'pie'
+    },
+    title: {
+        text: 'Browser market shares in January, 2018'
+    },
+    tooltip: {
+        pointFormat: '<b>{point.percentage:.1f}%</b>'
+    },
+    accessibility: {
+        point: {
+            valueSuffix: '%'
+        }
+    },
+    plotOptions: {
+        pie: {
+            allowPointSelect: true,
+            cursor: 'pointer',
+            dataLabels: {
+                enabled: true,
+                format: '{point.name:.1f}'
+            }
+        }
+    },
+    series: [{
+        name: '',
+        colorByPoint: true,
+        data: [{
+            name: 'Adware',
+            color: '#F4F4DF',
+            y: 8,
+        }, {
+            name: 'Malware',
+            color: '#FFE4A5',
+            y: 7
+        }, {
+            name: 'Bad Nameserver Hosts',
+            color:'#85D0E1',
+            y: 6
+        }, {
+            name: 'Known Suspicious',
+            color:'#66BDD0',
+            y: 7
+        }, {
+            name: 'Command & Control Server',
+            color:'#4AA7BB',
+            y: 9
+        },{
+            name: 'Drop IP',
+            color: '#2F90A5',
+            y: 6,
+        }, {
+            name: 'Hijacked & Criminal Networks',
+            color: '#317786',
+            y: 7
+        }, {
+            name: 'Phishing',
+            color:'#146273',
+            y: 7
+        }, {
+            name: 'Top Exit Nodes',
+            color:'#1D56A0',
+            y: 10
+        }, {
+            name: 'ZRD',
+            color:'#2961AB',
+            y: 9
+        }, {
+            name: 'Bogons',
+            color: '#2476E4',
+            y: 5
+        }, {
+            name: 'Zero Reputation',
+            color:'#509BFF',
+            y: 7
+        }, {
+            name: 'Cryptobloker',
+            color:'#70ADFF',
+            y: 6
+        }, {
+            name: 'Botnet',
+            color:'#A3D8FE',
+            y: 8
+        }]
+    }]
+});
+</script>
+<script type="text/javascript">
+	Highcharts.chart('chart8', {
+    chart: {
+        type: 'bar'
+    },
+    title: {
+        text: 'Stacked bar chart'
+    },
+    xAxis: {
+        categories: ['URL Address','URL Address','URL Address','URL Address','URL Address']
+
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Number of Threats by URL',
+            color: '#A6A8AB'
+        }
+    },
+    legend: {
+        reversed: true
+    },
+    plotOptions: {
+        series: {
+            borderWidth: 0,
+            dataLabels: {
+                enabled: true,
+                format: '{point.y:.1f}'
+            }
+        }
+    },
+    series: [{
+        data: [
+    		{	
+    			y:6600, 
+    			color: '#1D56A0'
+    		},
+    		{	
+    			y:4860, 
+    			color: '#2476E4'
+    		},
+    		{	
+    			y:3900, 
+    			color: '#A3D8FE'
+    		},
+    		{	
+    			y:6830, 
+    			color: '#4AA7BB'
+    		},
+    		{	
+    			y:3400, 
+    			color: '#85D0E1'
+    		}
+    	]
+    }]
+});
+</script>
+<script type="text/javascript">
+	Highcharts.chart('chart9', {
+    chart: {
+        type: 'bar'
+    },
+    title: {
+        text: 'Stacked bar chart'
+    },
+    xAxis: {
+        categories: ['USA', 'Country', 'Denmark', 'Estonia', 'Country']
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Number of Threats by Country'
+        },
+        labels: {
+            formatter: function () {
+                return this.value / 10000 + 'k';
+            }
+        }
+    },
+    legend: {
+        reversed: true
+    },
+    plotOptions: {
+        series: {
+            stacking: 'normal'
+        }
+    },
+    series: [{
+        name: 'Botnet',
+        color: '#A3D8FE',
+         data: [
+    		{	
+    			y:600, 
+    		},
+    		{	
+    			y:50, 
+    		},
+    		{	
+    			y:0, 
+    		},
+    		{	
+    			y:180, 
+    		},
+    		{	
+    			y:0, 
+    		}
+    	]
+    },{
+        name: 'Bogons',
+        color: '#2476E4',
+         data: [
+    		{	
+    			y:20, 
+    		},
+    		{	
+    			y:150, 
+    		},
+    		{	
+    			y:50, 
+    		},
+    		{	
+    			y:450, 
+    		},
+    		{	
+    			y:67, 
+    		}
+    	]
+    },{
+        name: 'Phishing ',
+        color: '#146273',
+         data: [
+    		{	
+    			y:89, 
+    		},
+    		{	
+    			y:250, 
+    		},
+    		{	
+    			y:40, 
+    		},
+    		{	
+    			y:70, 
+    		},
+    		{	
+    			y:400, 
+    		}
+    	]
+    },{
+        name: 'Bad Nameserver Hosts',
+        color: '#4AA7BB',
+         data: [
+    		{	
+    			y:20, 
+    		},
+    		{	
+    			y:150, 
+    		},
+    		{	
+    			y:50, 
+    		},
+    		{	
+    			y:450, 
+    		},
+    		{	
+    			y:67, 
+    		}
+    	]
+    },{
+        name: 'BDrop IP',
+        color: '#FFE4A5',
+         data: [
+    		{	
+    			y:89, 
+    		},
+    		{	
+    			y:250, 
+    		},
+    		{	
+    			y:40, 
+    		},
+    		{	
+    			y:70, 
+    		},
+    		{	
+    			y:400, 
+    		}
+    	]
+    },{
+        name: 'Cryptobloker',
+        color: '#70ADFF',
+         data: [
+    		{	
+    			y:20, 
+    		},
+    		{	
+    			y:150, 
+    		},
+    		{	
+    			y:50, 
+    		},
+    		{	
+    			y:450, 
+    		},
+    		{	
+    			y:67, 
+    		}
+    	]
+    },{
+        name: 'ZRD',
+        color: '#2961AB',
+         data: [
+    		{	
+    			y:600, 
+    		},
+    		{	
+    			y:50, 
+    		},
+    		{	
+    			y:0, 
+    		},
+    		{	
+    			y:180, 
+    		},
+    		{	
+    			y:0, 
+    		}
+    	]
+    },{
+        name: 'Adware',
+        color: '#317786',
+         data: [
+    		{	
+    			y:600, 
+    		},
+    		{	
+    			y:50, 
+    		},
+    		{	
+    			y:0, 
+    		},
+    		{	
+    			y:180, 
+    		},
+    		{	
+    			y:0, 
+    		}
+    	]
+    },{
+        name: 'Known Suspicious',
+        color: '#66BDD0',
+         data: [
+    		{	
+    			y:600, 
+    		},
+    		{	
+    			y:50, 
+    		},
+    		{	
+    			y:0, 
+    		},
+    		{	
+    			y:180, 
+    		},
+    		{	
+    			y:0, 
+    		}
+    	]
+    },{
+        name: 'Hijacked & Criminal Networks',
+        color: '#F4F4DF',
+         data: [
+    		{	
+    			y:600, 
+    		},
+    		{	
+    			y:50, 
+    		},
+    		{	
+    			y:0, 
+    		},
+    		{	
+    			y:180, 
+    		},
+    		{	
+    			y:0, 
+    		}
+    	]
+    },{
+        name: 'Zero Reputation',
+        color: '#509BFF',
+         data: [
+    		{	
+    			y:600, 
+    		},
+    		{	
+    			y:50, 
+    		},
+    		{	
+    			y:0, 
+    		},
+    		{	
+    			y:180, 
+    		},
+    		{	
+    			y:0, 
+    		}
+    	]
+    },{
+        name: 'Top Exit Nodes',
+        color: '#1D56A0',
+         data: [
+    		{	
+    			y:600, 
+    		},
+    		{	
+    			y:50, 
+    		},
+    		{	
+    			y:0, 
+    		},
+    		{	
+    			y:180, 
+    		},
+    		{	
+    			y:0, 
+    		}
+    	]
+    },{
+        name: 'Malware',
+        color: '#2F90A5',
+         data: [
+    		{	
+    			y:600, 
+    		},
+    		{	
+    			y:50, 
+    		},
+    		{	
+    			y:0, 
+    		},
+    		{	
+    			y:180, 
+    		},
+    		{	
+    			y:0, 
+    		}
+    	]
+    },{
+        name: 'Command & Control Server',
+        color: '#85D0E1',
+         data: [
+    		{	
+    			y:600, 
+    		},
+    		{	
+    			y:50, 
+    		},
+    		{	
+    			y:0, 
+    		},
+    		{	
+    			y:180, 
+    		},
+    		{	
+    			y:0, 
+    		}
+    	]
+    },]
+});
+</script>
+<script type="text/javascript">
+	Highcharts.chart('chart10', {
+    chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: 0,
+        plotShadow: false
+    },
+    title: {
+        text: 'Browser<br>shares<br>2017',
+        align: 'center',
+        verticalAlign: 'middle',
+        y: 60
+    },
+    tooltip: {
+        pointFormat: '<b>{point.y:.2f}%</b>'
+    },
+    accessibility: {
+    	announceNewData: {
+            enabled: true
+        },
+        point: {
+            valueSuffix: '%'
+        }
+    },
+    plotOptions: {
+        pie: {
+            dataLabels: {
+                enabled: true,
+                distance: 20,
+                enabled: true,
+                format: '{point.name}',
+                style: {
+                	
+                    color: '#000'
+                }
+            },
+            showInLegend: true,
+            startAngle: -0,
+            endAngle: 0,
+            center: ['50%', '50%'],
+            size: '80%'
+        },
+        allowPointSelect: true,
+    },
+    series: [{
+        type: 'pie',
+        name: 'Browser share',
+        colorByPoint: true,
+        innerSize: '50%',
+        data: [
+                {
+                    name: "Known Suspicious",
+                    y: 50,
+                    color: '#2476E4'
+                },
+                {
+                    name: "ZRD",
+                    y: 20,
+                    color: '#A3D8FE'
+                },
+                {
+                    name: "Malware",
+                    y: 24,
+                    color: '#F7F7E7'
+                },
+                {
+                    name: "Command & Control Server",
+                    y: 17,
+                    color: '#4AA7BB'
+                },
+                {
+                    name: "Adware",
+                    y: 5,
+                    color: '#85D0E1'
+                },
+            ]
+    }]
+});
+</script>
+<script type="text/javascript">
+	Highcharts.chart('chart11', {
+    chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: 0,
+        plotShadow: false
+    },
+    title: {
+        text: 'Browser<br>shares<br>2017',
+        align: 'center',
+        verticalAlign: 'middle',
+        y: 60
+    },
+    tooltip: {
+        pointFormat: '<b>{point.y:.2f}%</b>'
+    },
+    accessibility: {
+    	announceNewData: {
+            enabled: true
+        },
+        point: {
+            valueSuffix: '%'
+        }
+    },
+    plotOptions: {
+        pie: {
+            dataLabels: {
+                enabled: true,
+                distance: 20,
+                enabled: true,
+                format: '{point.name}',
+                style: {
+                	
+                    color: '#000'
+                }
+            },
+            showInLegend: true,
+            startAngle: -0,
+            endAngle: 0,
+            center: ['50%', '50%'],
+            size: '80%'
+        },
+        allowPointSelect: true,
+    },
+    series: [{
+        type: 'pie',
+        name: 'Browser share',
+        colorByPoint: true,
+        innerSize: '50%',
+        data: [
+                {
+                    name: "DE",
+                    y: 10,
+                    color: '#2476E4'
+                },
+                {
+                    name: "SG",
+                    y: 17,
+                    color: '#A3D8FE'
+                },
+                {
+                    name: "KR",
+                    y: 24,
+                    color: '#F7F7E7'
+                },
+                {
+                    name: "UA",
+                    y: 24,
+                    color: '#4AA7BB'
+                },
+                {
+                    name: "FR",
+                    y: 50,
+                    color: '#85D0E1'
+                },
+            ]
+    }]
+});
+</script>
+<script type="text/javascript">
+	Highcharts.chart('chart12', {
+    chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: 0,
+        plotShadow: false
+    },
+    title: {
+        text: 'Browser<br>shares<br>2017',
+        align: 'center',
+        verticalAlign: 'middle',
+        y: 60
+    },
+    tooltip: {
+        pointFormat: '<b>{point.y:.2f}%</b>'
+    },
+    accessibility: {
+    	announceNewData: {
+            enabled: true
+        },
+        point: {
+            valueSuffix: '%'
+        }
+    },
+    plotOptions: {
+        pie: {
+            dataLabels: {
+                enabled: true,
+                distance: 20,
+                enabled: true,
+                format: '{point.name}',
+                style: {
+                	
+                    color: '#000'
+                }
+            },
+            showInLegend: true,
+            startAngle: -0,
+            endAngle: 0,
+            center: ['50%', '50%'],
+            size: '80%'
+        },
+        allowPointSelect: true,
+    },
+    series: [{
+        type: 'pie',
+        name: 'Browser share',
+        colorByPoint: true,
+        innerSize: '50%',
+        data: [
+                {
+                    name: "Known Suspicious",
+                    y: 50,
+                    color: '#2476E4'
+                },
+                {
+                    name: "ZRD",
+                    y: 20,
+                    color: '#A3D8FE'
+                },
+                {
+                    name: "Malware",
+                    y: 24,
+                    color: '#F7F7E7'
+                },
+                {
+                    name: "Command & Control Server",
+                    y: 17,
+                    color: '#4AA7BB'
+                },
+                {
+                    name: "Adware",
+                    y: 5,
+                    color: '#85D0E1'
+                },
+            ]
+    }]
+});
+</script>
+<script type="text/javascript">
+	$('.sidenav-arrow').click(function(){
+		$('body').toggleClass('desktop-nav-active');
+	});
+</script>
+</body>
+</html>

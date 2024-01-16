@@ -1,0 +1,166 @@
+.visible-xs{
+	display: none !important;
+}
+.hidden-xs{
+	display: block !important;
+}
+.sidenav-arrow{
+	display: none;
+}
+@media(min-width: 992px){
+.main-content .container{
+max-width: 900px;
+}
+.sidenav{
+	left: 0;
+}
+.main-content {
+    padding-left: 4.5rem;
+}
+.top-nav {
+    z-index: 9999999;
+}
+.top-nav .container{
+	max-width: 100% !important;
+}
+.sidenav-arrow{
+	display: block;
+}
+.sidenav-arrow{
+position: absolute;
+top: 25rem;
+right:0rem;
+cursor: pointer;
+z-index:9;
+width: 2rem;
+height: 2rem;
+text-align: center;
+transition: all .3s ease;
+}
+.desktop-nav-active .sidenav  .sidenav-arrow{
+transform: rotate(180deg)
+}
+.sidenav ul li svg ~ span{
+	display: none;
+}
+.sidenav {
+    padding-left: 0.7rem;
+    width: 4.5rem;
+}
+.desktop-nav-active .sidenav{
+	width: 17rem;
+	padding-left: 1.5rem;
+}
+.desktop-nav-active .sidenav ul li svg ~ span{
+	display: inline-block;
+}
+.desktop-nav-active .main-content {
+    padding-left: 17rem;
+}
+.sidenav{
+	overflow-x: hidden;
+}
+.sidenav ul {
+    min-width: 11rem;
+}
+}
+@media(min-width: 1200px){
+.main-content .container{
+max-width: 1140px;
+}
+}
+@media(min-width: 1500px){
+.top-nav .container, .main-content .container{
+max-width: 1440px;
+}
+}
+
+
+@media(max-width: 992px){
+	.top-nav .menu-btn{
+		display: block;
+	}
+	.content-box h5 {
+    white-space: nowrap;
+    width: 84%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+}
+@media(max-width: 767px){
+	.top-nav .menu-btn{
+		display: none;
+	}
+	.visible-xs{
+		display: block !important;
+	}
+	.hidden-xs{
+		display: none !important;
+	}
+	.top-nav {
+    padding: 1rem 0.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.top-nav .menu-btn img{
+	margin-right: 0;
+	margin-bottom: .2rem;
+}
+.top-nav .notification{
+	margin-right: 1.5rem;
+}
+.main-content{
+	padding-top: 4.9rem;
+}
+.sidenav {
+    top: 3.9rem;
+    width: 100%;
+    left: -101%;
+}
+.sidenav.active{
+	left: 0;
+}
+.sidenav ul {
+    margin-top: 0rem;
+}
+.mobile-user{
+	text-align: center;
+}
+.mobile-user img{
+	width: 3.9rem;
+	margin-bottom: .4rem;
+}
+.mobile-user h4{
+	font-family: NeueMachina-Ultrabold;
+	color: #fff;
+	font-size: 1.1rem;
+}
+.side-navMenu{
+	padding-top: .7rem;
+}
+.sidenav{
+	padding-right: 1.5rem;
+	overflow-y: auto;
+}
+.sidenav ul li .top-r, .sidenav ul li .bottom-r{
+	display: none;
+}
+.sidenav ul li a {
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+.sidenav ul li a svg{
+	margin-right: .5rem;
+}
+body.active{
+    overflow: hidden;
+}
+.sidenav ul hr{
+	border-top: 2px solid rgba(255, 255, 255, .5);
+	margin:  .5rem 0;
+}
+}
